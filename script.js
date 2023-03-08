@@ -3,7 +3,7 @@ const btn = document.querySelector("input[type='submit']");
 const table = document.querySelector("tbody");
 
 const separator = (subject) => {
-  let array = subject.trim().split(",").map(e=>e.trim());
+  let array = subject.trim().split(" ").map(e=>e.trim());
   to_count(array);
 };
 
