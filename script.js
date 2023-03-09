@@ -31,7 +31,7 @@ const to_list = (table_data) => {
     console.log(`${key} = ${table_data[key]}`); //important
     table.innerHTML += `<tr>
     <td class="border border-dark-subtle border-3 p-2">${key}</td>
-    <td class="border border-dark-subtle border-3 p-2 text-bg-success">${table_data[key]}</td>
+    <td class="border border-dark-subtle border-3 p-2 text-bg-success text-center">${table_data[key]}</td>
   </tr>`;
   }
 };
